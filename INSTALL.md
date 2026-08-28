@@ -26,8 +26,6 @@ wiki/
 temp/
 ```
 
-Remove any obsolete `.opencode/scripts/rscript.ps1` left from older revisions. No PowerShell wrapper is used by this package.
-
 Restart OpenCode after replacing `.opencode/tools/` so the custom tools are reloaded.
 
 No additional R, Python, PowerShell, Node, or shell dependency is introduced by the project beyond OpenCode's own custom-tool runtime and the local R installation itself.
